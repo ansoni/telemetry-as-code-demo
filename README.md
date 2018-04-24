@@ -18,9 +18,9 @@ Load the works of shakespheare into both.
 
 	bash load_data.sh
 
-Now Connect to the first kibana instance by visiting http://127.0.0.1:5701
+Now Connect to the second kibana instance by visiting http://127.0.0.1:5701
 
-Create an index Pattern/Save a Search/Create a visualization
+Create an index Pattern/Save a Search
 
 Now export the data.
 
@@ -46,7 +46,7 @@ Now we can create a new terraform file to get things going:
 	}
 	EOF
 
-We use an external provider for the demo.  It would be expected that we would use a module or even a custom provider if we went further and productized this.
+We use a custom external provider for the demo.  
 
 Now apply the terraform
 
